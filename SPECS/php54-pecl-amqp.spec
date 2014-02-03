@@ -11,7 +11,7 @@
 
 Summary: Communicate with any AMQP compliant server
 Name: %{php_base}-pecl-amqp
-Version: 1.2.0
+Version: 1.4.0beta1
 Release: 1.vortex%{?dist}
 License: PHP
 Group: Development/Languages
@@ -93,5 +93,8 @@ fi
 
 
 %changelog
-* Wed Jan 29 2013 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 1.2.0-1.vortex
+* Mon Feb  3 2014 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 1.4.0beta1-1.vortex
+- Update to 1.4.0beta1.
+
+* Wed Jan 29 2014 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 1.2.0-1.vortex
 - Initial packaging.
