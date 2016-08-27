@@ -11,8 +11,9 @@
 
 Summary: Communicate with any AMQP compliant server
 Name: %{php_base}-pecl-amqp
-Version: 1.4.0beta1
-Release: 1.vortex%{?dist}
+Version: 1.4.0
+Epoch: 1
+Release: 2.vortex%{?dist}
 License: PHP
 Group: Development/Languages
 Vendor: Vortex RPM
@@ -40,7 +41,7 @@ to create and delete exchanges and queues, as well as publish to any
 exchange and consume from any queue.
 
 
-%prep 
+%prep
 %setup -c -n %{real_name}-%{version} -q
 
 
@@ -93,6 +94,10 @@ fi
 
 
 %changelog
+* Sat Aug 28 2016 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 1.4.0-1.vortex
+- Update to 1.4.0.
+- Bump the release and epoch.
+
 * Mon Feb  3 2014 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 1.4.0beta1-1.vortex
 - Update to 1.4.0beta1.
 
